@@ -43,15 +43,27 @@ namespace MemoryGame
                 for (int column = 0; column < cols; column++)
                 {
                     Image backgroundImage = new Image();
-                    backgroundImage.Source = new BitmapImage(new Uri("oscar.png", UriKind.Relative));
+                    backgroundImage.Source = new BitmapImage(new Uri("img/sesame.jpg", UriKind.Relative));
                     Grid.SetColumn(backgroundImage, column);
                     Grid.SetRow(backgroundImage, row);
                     grid.Children.Add(backgroundImage);
                 }
             }
         }
-    } 
+        private void AddLabel()
+        {
+            Label title = new Label();
+            title.Content = "Memory";
+            title.FontFamily = new FontFamily("Distant Galaxy");
+            title.FontSize = 40;
+            title.HorizontalAlignment = HorizontalAlignment.Center;
 
-    
+            Grid.SetColumn(title, 1);
+            grid.Children.Add(title);
+        }
+
+    }
+
+
 
 }
