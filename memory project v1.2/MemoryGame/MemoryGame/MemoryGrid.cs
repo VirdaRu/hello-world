@@ -38,6 +38,7 @@ namespace MemoryGame
             }
         }
         private void AddImages()
+            //heb hier aanpassingen aan gemaakt gr lars
         {
             List<ImageSource> images = GetImagesList();
             for (int row = 0; row < rows; row++)
@@ -55,12 +56,14 @@ namespace MemoryGame
                 }
             }
         }
+        //dit is voor zodat de plaatjes omdraaien gr lars
         private void CardClick(object sender, MouseButtonEventArgs e)
         {
             Image card = (Image)sender;
             ImageSource front = (ImageSource)card.Tag;
             card.Source = front;
         }
+        //hier ergens moet de randoizer komen te staan
         private List<ImageSource> GetImagesList()
         {
             Random random = new Random();
@@ -74,8 +77,9 @@ namespace MemoryGame
             }
             return images;
         }
+        //tot aan hier
 
-
+        //weet niet zeker waar dit voor is maar stond in de presentatie dus heb het er voor de zekerheid ingezet waarschijnlijk voor lateree doeleinden
         private void AddLabel()
         {
             Label title = new Label();
