@@ -67,18 +67,15 @@ namespace MemoryGame
         //Dit zijn de plaatsjes van de memory (Lars, Max)
         private List<ImageSource> GetImagesList()
         {
-            Random random = new Random();
-
             List<ImageSource> images = new List<ImageSource>();
             for (int i = 0; i < 16; i++)
             {
                 int imageNr = i % 8 + 1;
                 ImageSource source = new BitmapImage(new Uri("img/" + imageNr + ".png", UriKind.Relative));
                 images.Add(source);
-
             }
             //dit is de randomizer  (Rianne, Max)
-                Random random2 = new Random();
+                Random random = new Random();
                 for (int i = 0; i < (rows * cols); i++)
                 {
                 int r = random.Next(0, (rows * cols));
@@ -86,8 +83,7 @@ namespace MemoryGame
                 images[r] = images[i];
                 images[i] = randomnaam;
                 }
-            
-            
+              
             return images;
         }
 
