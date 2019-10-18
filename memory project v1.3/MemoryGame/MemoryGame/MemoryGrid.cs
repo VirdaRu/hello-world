@@ -8,7 +8,7 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Input;
-
+//dit is om dingen te tesesen
 namespace MemoryGame
 {
     class MemoryGrid
@@ -16,6 +16,7 @@ namespace MemoryGame
         private Grid grid;
         private int cols;
         private int rows;
+
             
 
         public MemoryGrid(Grid grid, int cols, int rows)
