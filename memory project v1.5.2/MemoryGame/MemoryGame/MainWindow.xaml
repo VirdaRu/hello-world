@@ -6,20 +6,19 @@
         xmlns:local="clr-namespace:MemoryGame"
         mc:Ignorable="d"
         Title="Memory game" SizeToContent="WidthAndHeight" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-    <Grid x:Name="GameGrid" Width="900" Height="850" Margin="5,23,0,0">
-        <Grid HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="150" Margin="300,277,0,0"/>
-        <Grid Margin="41,10,10,42" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Grid x:Name="GameGrid" Width="1200" Height="850" Margin="0,0,0,0">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="225"/>
+            <ColumnDefinition Width="225"/>
+            <ColumnDefinition Width="225"/>
+            <ColumnDefinition Width="225"/>
+            <ColumnDefinition Width="7*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="212"/>
+            <RowDefinition Height="213"/>
+            <RowDefinition Height="212"/>
+            <RowDefinition Height="213"/>
         </Grid.RowDefinitions>
         <Grid.Background>
             <ImageBrush ImageSource="background.jpg"/>
