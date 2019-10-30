@@ -18,18 +18,19 @@ namespace MemoryGame
     /// <summary>
     /// Interaction logic for Page3.xaml
     /// </summary>
-    public partial class Page3 : Page
+    public partial class Page3 : Window
     {
         private const int NR_OF_COLS = 4;
         private const int NR_OF_ROWS = 4;
         private MemoryGrid grid;
+
+
         public Page3()
         {
             InitializeComponent();
-            grid = new MemoryGrid(GameGrid, NR_OF_COLS, NR_OF_ROWS);
-            InitializeGameGrid();
+            grid = new MemoryGrid(MemoryGrid, NR_OF_COLS, NR_OF_ROWS);
+            //InitializeGameGrid();
         }
-
         private void InitializeGameGrid()
         {
             for (int i = 0; i < NR_OF_ROWS; i++)
@@ -41,5 +42,12 @@ namespace MemoryGame
                 GameGrid.ColumnDefinitions.Add(new ColumnDefinition());
             }
         }
+
+        private void Reset(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+            Application.Current.Shutdown();
+        }
+
     }
 }
