@@ -27,7 +27,7 @@ namespace MemoryGame
          
         private void DootDoot_CLick(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new Page2());
+            this.NavigationService.Navigate(new Page3());
         }
 
         

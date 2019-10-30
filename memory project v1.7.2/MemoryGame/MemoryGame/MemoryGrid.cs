@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Controls;
-using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Input;
@@ -16,7 +13,6 @@ namespace MemoryGame
         private Grid grid;
         private int cols;
         private int rows;
-            
 
         public MemoryGrid(Grid grid, int cols, int rows)
         {
@@ -39,7 +35,7 @@ namespace MemoryGame
             }
         }
         private void AddImages()
-            //Dit is de voorkant van de kaartjes (Lars)
+        //Dit is de voorkant van de kaartjes (Lars)
         {
             List<ImageSource> images = GetImagesList();
             for (int row = 0; row < rows; row++)
@@ -75,17 +71,15 @@ namespace MemoryGame
                 images.Add(source);
             }
             //dit is de randomizer  (Rianne, Max)
-                Random random = new Random();
-                for (int i = 0; i < (rows * cols); i++)
-                {
+            Random random = new Random();
+            for (int i = 0; i < (rows * cols); i++)
+            {
                 int r = random.Next(0, (rows * cols));
                 ImageSource randomnaam = images[r];
                 images[r] = images[i];
                 images[i] = randomnaam;
-                }
+            }
             return images;
         }
-
     }
-
 }
