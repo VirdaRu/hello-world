@@ -330,3 +330,26 @@ C:\Users\Riann\OneDrive\Documenten\memory game git\memory project v1.7.5\MemoryG
 C:\Users\Riann\OneDrive\Documenten\memory game git\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.GenerateResource.cache
 C:\Users\Riann\OneDrive\Documenten\memory game git\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MemoryGame.exe
 C:\Users\Riann\OneDrive\Documenten\memory game git\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MemoryGame.pdb
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe.config
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\bin\Debug\MemoryGame.pdb
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csprojAssemblyReference.cache
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\highscore.baml
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\Page2.baml
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\Page3.baml
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\highscore.g.cs
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MainWindow.g.cs
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\Page1.g.cs
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\Page2.g.cs
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\Page3.g.cs
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\App.g.cs
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MemoryGame_Content.g.cs
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MemoryGame_MarkupCompile.cache
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MemoryGame_MarkupCompile.lref
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MainWindow.baml
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\Page1.baml
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MemoryGame.g.resources
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MemoryGame.Properties.Resources.resources
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.GenerateResource.cache
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MemoryGame.exe
+D:\Users\Eigenaar\Documents\git repository\memory project v1.7.5\MemoryGame\MemoryGame\obj\Debug\MemoryGame.pdb
