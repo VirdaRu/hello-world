@@ -1,0 +1,33 @@
+﻿MemoryGame
+
+
+winexe
+C#
+.cs
+<<<<<<< HEAD
+C:\Users\maksm\OneDrive\Documenten\memory project\memory max\MemoryGame\MemoryGame\obj\Debug\
+MemoryGame
+none
+false
+DEBUG;TRACE
+C:\Users\maksm\OneDrive\Documenten\memory project\memory max\MemoryGame\MemoryGame\App.xaml
+=======
+D:\Users\Eigenaar\Documents\memory project\memory max\MemoryGame\MemoryGame\obj\Release\
+MemoryGame
+none
+false
+TRACE
+D:\Users\Eigenaar\Documents\memory project\memory max\MemoryGame\MemoryGame\App.xaml
+>>>>>>> 8ef8034b0e8bb2ec75029c76be7984e36053cbde
+11151548125
+
+61076043466
+13-1505183044
+MainWindow.xaml;
+
+<<<<<<< HEAD
+False
+=======
+True
+>>>>>>> 8ef8034b0e8bb2ec75029c76be7984e36053cbde
+
