@@ -27,7 +27,10 @@
             </Grid.RowDefinitions>
         </Grid>
         <Grid Grid.Column="1">
-            <Label x:Name="Timerlabel" Content="0" FontFamily="Segou UI" FontSize="50" HorizontalAlignment="Left" Margin="233,53,0,0" VerticalAlignment="Top" Width="127"/>
+            <Label x:Name="Timerlabel" Content="0" FontFamily="Segou UI" FontSize="50" HorizontalAlignment="Right" Margin="233,53,0,0" VerticalAlignment="Top" Width="127" Foreground="White" />
+            <Label Content=":" FontFamily="Segou UI" FontSize="50" Foreground="White" HorizontalAlignment="Left" Margin="220,49,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="Minutelabel" Content="0" FontFamily="Segou UI" FontSize="50" HorizontalAlignment="Left" Margin="192,53,0,0" VerticalAlignment="Top" Width="127" Foreground="White" RenderTransformOrigin="1.643,0.57"/>
+            
         </Grid>
 
         <Button Click="Reset" Content="Reset de game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="285" Grid.Column="1" Margin="65,798,0,0" Height="42"/>

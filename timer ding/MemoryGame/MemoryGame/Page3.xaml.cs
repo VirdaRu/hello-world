@@ -55,18 +55,38 @@ namespace MemoryGame
             DispatcherTimer dt = new DispatcherTimer();
             dt.Interval = TimeSpan.FromSeconds(1);
             dt.Tick += dtTicker;
-            dt.Start();              
+            dt.Start();
 
+            DispatcherTimer tt = new DispatcherTimer();
+            tt.Interval = TimeSpan.FromMinutes(1);
+            tt.Tick += Tt_Tick;
+            tt.Start();
+                                 
         }
 
+        
+
         private int increment = 0;
+        private int minute = 0;
+
        
         private void dtTicker(object sender, EventArgs e)
         {
             increment++;
 
             Timerlabel.Content = increment.ToString();
-        
+
+            if (increment > 59)
+            {
+                minute++;
+                Minutelabel.Content = minute.ToString();
+                increment = 0;
+            }                
+        }
+
+        private void Tt_Tick (object sender, EventArgs e)
+        {
+            
         }
 
     }
