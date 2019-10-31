@@ -56,6 +56,14 @@ namespace MemoryGame {
         #line default
         #line hidden
         
+        
+        #line 38 "..\..\Page1.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Load;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -100,6 +108,15 @@ namespace MemoryGame {
             
             #line 34 "..\..\Page1.xaml"
             this.Click.Click += new System.Windows.RoutedEventHandler(this.Click_CLick);
+            
+            #line default
+            #line hidden
+            return;
+            case 3:
+            this.Load = ((System.Windows.Controls.Button)(target));
+            
+            #line 38 "..\..\Page1.xaml"
+            this.Load.Click += new System.Windows.RoutedEventHandler(this.Load_Click);
             
             #line default
             #line hidden
