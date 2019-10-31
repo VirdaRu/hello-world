@@ -1,5 +1,9 @@
-﻿using System.Windows;
+﻿using Microsoft.Win32;
+using System;
+using System.Media;
+using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace MemoryGame
 {
@@ -22,6 +26,7 @@ namespace MemoryGame
             this.NavigationService.Navigate(new highscore());
         }
 
+       
 
     }
 }

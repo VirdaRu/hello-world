@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace MemoryGame
@@ -31,12 +32,19 @@ namespace MemoryGame
             }
         }
 
-        private void Reset(object sender, RoutedEventArgs e)
+        private void Reset(object sender, RoutedEventArgs e) //update in nieuwe versie
         {
-            System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
-            Application.Current.Shutdown();
+            this.NavigationService.Navigate(new Page3());
+        }
+        private void ResetHM(object sender, RoutedEventArgs e) //update in nieuwe versie
+        {
+            this.NavigationService.Navigate(new Page1());
         }
 
+        private void save(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
 

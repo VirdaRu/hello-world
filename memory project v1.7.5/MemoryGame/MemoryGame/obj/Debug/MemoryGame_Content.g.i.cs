@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("milky-way-2695569_960_720.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("muziekaudio.wav")]
 
 

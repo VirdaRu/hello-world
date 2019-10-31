@@ -11,7 +11,7 @@
             <ColumnDefinition Width="7*"/>
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
-        <Grid x:Name="MemoryGrid" Grid.Column="0" HorizontalAlignment="Left" Width="900" Grid.ColumnSpan="2">
+        <Grid x:Name="MemoryGrid"  Grid.Column="0" HorizontalAlignment="Left" Width="900" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="225"/>
                 <ColumnDefinition Width="225"/>
@@ -26,8 +26,11 @@
                 <RowDefinition Height="213"/>
             </Grid.RowDefinitions>
         </Grid>
-        <Grid Grid.Column="1"/>
-        <Button Click="Reset" Content="Reset de game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="285" Grid.Column="1" Margin="65,798,0,0" Height="42"/>
+        <Grid Grid.Column="1">
+            <Button Click="ResetHM" Content="Terug naar Hoofdmenu" HorizontalAlignment="Left" Margin="211,800,0,0" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Click="save" Content="Save" HorizontalAlignment="Left" Margin="122,740,0,0" VerticalAlignment="Top" Width="172" Height="55"/>
+        </Grid>
+        <Button Click="Reset" Content="Reset de game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="138" Grid.Column="1" Margin="65,798,0,0" Height="42"/>
         <Grid.Background>
             <ImageBrush ImageSource="background.jpg"/>
         </Grid.Background>
