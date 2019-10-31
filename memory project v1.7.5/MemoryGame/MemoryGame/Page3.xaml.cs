@@ -31,6 +31,8 @@ namespace MemoryGame
             }
         }
 
+
+
         private void Reset(object sender, RoutedEventArgs e)
         {
             System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
@@ -38,5 +40,8 @@ namespace MemoryGame
         }
 
     }
+
+
+
 }
 
