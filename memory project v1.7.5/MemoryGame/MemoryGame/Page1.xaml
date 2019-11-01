@@ -35,10 +35,10 @@
 
             <Image Source="img/high_score.png" Stretch="UniformToFill"   HorizontalAlignment="Center" VerticalAlignment="Center" Height="106" Width="261"/>
         </Button>
-        <Button x:Name="Load" Click="Load_Click" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="3" BorderThickness="0" Margin="0,0,95,0">
+        <!--<Button x:Name="Load" Click="Load_Click" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="3" BorderThickness="0" Margin="0,0,95,0">
 
             <Image Source="img/load.png" HorizontalAlignment="Center" VerticalAlignment="Center" />
-        </Button>
+        </Button>-->
 
     </Grid>
 </Page>

@@ -25,8 +25,12 @@ namespace MemoryGame
         {
             this.NavigationService.Navigate(new highscore());
         }
+        //private void Load_CLick(object sender, RoutedEventArgs e)
+        //{
+        //    this.NavigationService.Navigate(new Page3());
+        //}
 
-       
+
 
     }
 }
